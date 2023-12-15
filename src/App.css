@@ -1,0 +1,60 @@
+
+.bord{
+  border: 1px solid black;
+  width: fit-content;
+  margin: 30px auto;
+  border: 20px solid salmon ;
+  border-radius: 10px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  border: 0.2px solid black;
+  height:7rem;
+  width: 7rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+
+
+}
+.box:hover{
+  border: 1px solid pink;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 10px 2px salmon;
+  z-index: 100;
+}
+.text-aline{
+  text-align: center;
+  color: salmon;
+  margin-top: 5px;
+}
+.display{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.player{
+font-size: 2rem;
+}
+.para{
+  font-size: 1.3rem;
+  color: rgb(246, 85, 67);
+}
+.btn{
+  padding: 0.5rem 3rem;
+  background-color: salmon;
+  color: black;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+.winner{
+  text-align: center;
+  color: rgb(250, 29, 5);
+  margin: 1rem 0;
+}
